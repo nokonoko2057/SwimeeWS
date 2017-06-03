@@ -16,6 +16,9 @@
 		61473CC51EE2852B007AB9C8 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC21EE2852B007AB9C8 /* PictureViewController.swift */; };
 		61473CC61EE2852B007AB9C8 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC31EE2852B007AB9C8 /* PostViewController.swift */; };
 		61473CC81EE28534007AB9C8 /* GetColorContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */; };
+		61473CCA1EE28AB0007AB9C8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CC91EE28AB0007AB9C8 /* Login.storyboard */; };
+		61473CCC1EE28AC6007AB9C8 /* MakeImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */; };
+		61473CCE1EE28AD2007AB9C8 /* TimeLine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */; };
 		825EECC4E32C624CC52BFC8C /* Pods_SwimeeWorkShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		61473CC21EE2852B007AB9C8 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		61473CC31EE2852B007AB9C8 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetColorContainerController.swift; sourceTree = "<group>"; };
+		61473CC91EE28AB0007AB9C8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MakeImage.storyboard; sourceTree = "<group>"; };
+		61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TimeLine.storyboard; sourceTree = "<group>"; };
 		7DE03E0A164721E8283AE241 /* Pods-SwimeeWorkShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimeeWorkShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop.release.xcconfig"; sourceTree = "<group>"; };
 		8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwimeeWorkShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B93AD7FFB7369D940B2806 /* Pods-SwimeeWorkShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimeeWorkShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */,
 				61473CAF1EE284A2007AB9C8 /* ViewController.swift */,
 				61473CBF1EE284DF007AB9C8 /* Main.storyboard */,
+				61473CC91EE28AB0007AB9C8 /* Login.storyboard */,
+				61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */,
+				61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */,
 				61473CC11EE2852B007AB9C8 /* PicSelectContainerController.swift */,
 				61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */,
 				61473CC21EE2852B007AB9C8 /* PictureViewController.swift */,
@@ -163,9 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61473CCA1EE28AB0007AB9C8 /* Login.storyboard in Resources */,
 				61473CB81EE284A2007AB9C8 /* LaunchScreen.storyboard in Resources */,
 				61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */,
+				61473CCE1EE28AD2007AB9C8 /* TimeLine.storyboard in Resources */,
 				61473CC01EE284DF007AB9C8 /* Main.storyboard in Resources */,
+				61473CCC1EE28AC6007AB9C8 /* MakeImage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +397,7 @@
 				61473CBE1EE284A2007AB9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
