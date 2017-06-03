@@ -17,6 +17,10 @@ class TimeLineViewController: UIViewController, UICollectionViewDataSource,UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        myCollectionView.delegate = self
+        myCollectionView.dataSource = self
+        
     }
     
     
