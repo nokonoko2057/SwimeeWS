@@ -62,7 +62,7 @@ class PictureViewController: CanvasController{
         switch currentContainerViewController!.title! {
             
         case "PicSelectContainerController":
-            currentContainerViewController?.performSegue(withIdentifier: "toGetColorContainer", sender: nil)
+            currentContainerViewController?.performSegue(withIdentifier: "toFontContainer", sender: nil)
       
             let backButtonItem = UIBarButtonItem(title: "←", style: .plain, target: self, action: #selector(backOfNavigation))
             self.navigationItem.leftBarButtonItem = backButtonItem
@@ -77,6 +77,15 @@ class PictureViewController: CanvasController{
 
             break
             
+            
+            
+        case "FontContainerController":
+            currentContainerViewController?.performSegue(withIdentifier: "toGetColorContainer", sender: nil)
+            
+            let backButtonItem = UIBarButtonItem(title: "←", style: .plain, target: self, action: #selector(backOfNavigation))
+            self.navigationItem.leftBarButtonItem = backButtonItem
+            break
+
             
         default:
             break
