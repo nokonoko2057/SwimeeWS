@@ -9,19 +9,31 @@
 /* Begin PBXBuildFile section */
 		61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */; };
 		61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAF1EE284A2007AB9C8 /* ViewController.swift */; };
-		61473CB31EE284A2007AB9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CB11EE284A2007AB9C8 /* Main.storyboard */; };
 		61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61473CB41EE284A2007AB9C8 /* Assets.xcassets */; };
 		61473CB81EE284A2007AB9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CB61EE284A2007AB9C8 /* LaunchScreen.storyboard */; };
+		61473CC01EE284DF007AB9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CBF1EE284DF007AB9C8 /* Main.storyboard */; };
+		61473CC41EE2852B007AB9C8 /* PicSelectContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC11EE2852B007AB9C8 /* PicSelectContainerController.swift */; };
+		61473CC51EE2852B007AB9C8 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC21EE2852B007AB9C8 /* PictureViewController.swift */; };
+		61473CC61EE2852B007AB9C8 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC31EE2852B007AB9C8 /* PostViewController.swift */; };
+		61473CC81EE28534007AB9C8 /* GetColorContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */; };
+		825EECC4E32C624CC52BFC8C /* Pods_SwimeeWorkShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61473CAA1EE284A2007AB9C8 /* SwimeeWorkShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimeeWorkShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61473CAF1EE284A2007AB9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61473CB21EE284A2007AB9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61473CB41EE284A2007AB9C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61473CB71EE284A2007AB9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61473CB91EE284A2007AB9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61473CBF1EE284DF007AB9C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		61473CC11EE2852B007AB9C8 /* PicSelectContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicSelectContainerController.swift; sourceTree = "<group>"; };
+		61473CC21EE2852B007AB9C8 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		61473CC31EE2852B007AB9C8 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetColorContainerController.swift; sourceTree = "<group>"; };
+		7DE03E0A164721E8283AE241 /* Pods-SwimeeWorkShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimeeWorkShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop.release.xcconfig"; sourceTree = "<group>"; };
+		8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwimeeWorkShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B93AD7FFB7369D940B2806 /* Pods-SwimeeWorkShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimeeWorkShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825EECC4E32C624CC52BFC8C /* Pods_SwimeeWorkShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				61473CAC1EE284A2007AB9C8 /* SwimeeWorkShop */,
 				61473CAB1EE284A2007AB9C8 /* Products */,
+				F8426EBBCBD666BDC3292647 /* Pods */,
+				E5F1A9D18CB9E28E6E0E0236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */,
 				61473CAF1EE284A2007AB9C8 /* ViewController.swift */,
-				61473CB11EE284A2007AB9C8 /* Main.storyboard */,
+				61473CBF1EE284DF007AB9C8 /* Main.storyboard */,
+				61473CC11EE2852B007AB9C8 /* PicSelectContainerController.swift */,
+				61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */,
+				61473CC21EE2852B007AB9C8 /* PictureViewController.swift */,
+				61473CC31EE2852B007AB9C8 /* PostViewController.swift */,
 				61473CB41EE284A2007AB9C8 /* Assets.xcassets */,
 				61473CB61EE284A2007AB9C8 /* LaunchScreen.storyboard */,
 				61473CB91EE284A2007AB9C8 /* Info.plist */,
 			);
 			path = SwimeeWorkShop;
+			sourceTree = "<group>";
+		};
+		E5F1A9D18CB9E28E6E0E0236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8426EBBCBD666BDC3292647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94B93AD7FFB7369D940B2806 /* Pods-SwimeeWorkShop.debug.xcconfig */,
+				7DE03E0A164721E8283AE241 /* Pods-SwimeeWorkShop.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61473CBC1EE284A2007AB9C8 /* Build configuration list for PBXNativeTarget "SwimeeWorkShop" */;
 			buildPhases = (
+				364D516490DDF7E81D170728 /* [CP] Check Pods Manifest.lock */,
 				61473CA61EE284A2007AB9C8 /* Sources */,
 				61473CA71EE284A2007AB9C8 /* Frameworks */,
 				61473CA81EE284A2007AB9C8 /* Resources */,
+				529F3A296DAF362827802958 /* [CP] Embed Pods Frameworks */,
+				36BFBC8A62CD1450D0F12C9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,33 +165,77 @@
 			files = (
 				61473CB81EE284A2007AB9C8 /* LaunchScreen.storyboard in Resources */,
 				61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */,
-				61473CB31EE284A2007AB9C8 /* Main.storyboard in Resources */,
+				61473CC01EE284DF007AB9C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		364D516490DDF7E81D170728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36BFBC8A62CD1450D0F12C9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529F3A296DAF362827802958 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61473CA61EE284A2007AB9C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61473CC41EE2852B007AB9C8 /* PicSelectContainerController.swift in Sources */,
+				61473CC51EE2852B007AB9C8 /* PictureViewController.swift in Sources */,
 				61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */,
 				61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */,
+				61473CC81EE28534007AB9C8 /* GetColorContainerController.swift in Sources */,
+				61473CC61EE2852B007AB9C8 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61473CB11EE284A2007AB9C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61473CB21EE284A2007AB9C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61473CB61EE284A2007AB9C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -257,6 +340,7 @@
 		};
 		61473CBD1EE284A2007AB9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B93AD7FFB7369D940B2806 /* Pods-SwimeeWorkShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L658J8KRQ5;
@@ -270,6 +354,7 @@
 		};
 		61473CBE1EE284A2007AB9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE03E0A164721E8283AE241 /* Pods-SwimeeWorkShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L658J8KRQ5;
