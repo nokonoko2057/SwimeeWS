@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC72DDF1EE2916800368A6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC72DDE1EE2916800368A6D /* LoginViewController.swift */; };
 		61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */; };
 		61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAF1EE284A2007AB9C8 /* ViewController.swift */; };
 		61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61473CB41EE284A2007AB9C8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EC72DDE1EE2916800368A6D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		61473CAA1EE284A2007AB9C8 /* SwimeeWorkShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimeeWorkShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61473CAF1EE284A2007AB9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				61473CAF1EE284A2007AB9C8 /* ViewController.swift */,
 				61473CBF1EE284DF007AB9C8 /* Main.storyboard */,
 				61473CC91EE28AB0007AB9C8 /* Login.storyboard */,
+				1EC72DDE1EE2916800368A6D /* LoginViewController.swift */,
 				61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */,
 				61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */,
 				61473CC11EE2852B007AB9C8 /* PicSelectContainerController.swift */,
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC72DDF1EE2916800368A6D /* LoginViewController.swift in Sources */,
 				61473CC41EE2852B007AB9C8 /* PicSelectContainerController.swift in Sources */,
 				61473CC51EE2852B007AB9C8 /* PictureViewController.swift in Sources */,
 				61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */,
