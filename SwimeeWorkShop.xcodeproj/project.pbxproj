@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9BC4CA1EE291CE009AEE18 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */; };
 		61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */; };
 		61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAF1EE284A2007AB9C8 /* ViewController.swift */; };
 		61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61473CB41EE284A2007AB9C8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		61473CAA1EE284A2007AB9C8 /* SwimeeWorkShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimeeWorkShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61473CAF1EE284A2007AB9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */,
 				61473CAF1EE284A2007AB9C8 /* ViewController.swift */,
+				2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */,
 				61473CBF1EE284DF007AB9C8 /* Main.storyboard */,
 				61473CC91EE28AB0007AB9C8 /* Login.storyboard */,
 				61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */,
@@ -144,7 +147,7 @@
 				TargetAttributes = {
 					61473CA91EE284A2007AB9C8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L658J8KRQ5;
+						DevelopmentTeam = 2263GD5RWN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -238,6 +241,7 @@
 			files = (
 				61473CC41EE2852B007AB9C8 /* PicSelectContainerController.swift in Sources */,
 				61473CC51EE2852B007AB9C8 /* PictureViewController.swift in Sources */,
+				2D9BC4CA1EE291CE009AEE18 /* TimeLineViewController.swift in Sources */,
 				61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */,
 				61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */,
 				61473CC81EE28534007AB9C8 /* GetColorContainerController.swift in Sources */,
@@ -355,10 +359,10 @@
 			baseConfigurationReference = 94B93AD7FFB7369D940B2806 /* Pods-SwimeeWorkShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L658J8KRQ5;
+				DEVELOPMENT_TEAM = 2263GD5RWN;
 				INFOPLIST_FILE = SwimeeWorkShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.SwimeeWorkShop;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokonoko.SwimeeWorkShop-ta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -369,10 +373,10 @@
 			baseConfigurationReference = 7DE03E0A164721E8283AE241 /* Pods-SwimeeWorkShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L658J8KRQ5;
+				DEVELOPMENT_TEAM = 2263GD5RWN;
 				INFOPLIST_FILE = SwimeeWorkShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.SwimeeWorkShop;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokonoko.SwimeeWorkShop-ta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
