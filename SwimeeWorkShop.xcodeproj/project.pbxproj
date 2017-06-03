@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D9BC4CA1EE291CE009AEE18 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */; };
 		1EC72DDF1EE2916800368A6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC72DDE1EE2916800368A6D /* LoginViewController.swift */; };
+		2D9BC4CA1EE291CE009AEE18 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */; };
+		2DDF20C71EE2AA5600BC8F9B /* a.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C01EE2AA5600BC8F9B /* a.JPG */; };
+		2DDF20C81EE2AA5600BC8F9B /* b.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C11EE2AA5600BC8F9B /* b.JPG */; };
+		2DDF20C91EE2AA5600BC8F9B /* c.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C21EE2AA5600BC8F9B /* c.JPG */; };
+		2DDF20CA1EE2AA5600BC8F9B /* d.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C31EE2AA5600BC8F9B /* d.JPG */; };
+		2DDF20CB1EE2AA5600BC8F9B /* e.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C41EE2AA5600BC8F9B /* e.JPG */; };
+		2DDF20CC1EE2AA5600BC8F9B /* g.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C51EE2AA5600BC8F9B /* g.JPG */; };
+		2DDF20CD1EE2AA5600BC8F9B /* h.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF20C61EE2AA5600BC8F9B /* h.JPG */; };
 		61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */; };
 		61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CAF1EE284A2007AB9C8 /* ViewController.swift */; };
 		61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61473CB41EE284A2007AB9C8 /* Assets.xcassets */; };
@@ -27,8 +34,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		1EC72DDE1EE2916800368A6D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		2DDF20C01EE2AA5600BC8F9B /* a.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.JPG; sourceTree = "<group>"; };
+		2DDF20C11EE2AA5600BC8F9B /* b.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.JPG; sourceTree = "<group>"; };
+		2DDF20C21EE2AA5600BC8F9B /* c.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.JPG; sourceTree = "<group>"; };
+		2DDF20C31EE2AA5600BC8F9B /* d.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d.JPG; sourceTree = "<group>"; };
+		2DDF20C41EE2AA5600BC8F9B /* e.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e.JPG; sourceTree = "<group>"; };
+		2DDF20C51EE2AA5600BC8F9B /* g.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = g.JPG; sourceTree = "<group>"; };
+		2DDF20C61EE2AA5600BC8F9B /* h.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h.JPG; sourceTree = "<group>"; };
 		61473CAA1EE284A2007AB9C8 /* SwimeeWorkShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimeeWorkShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61473CAF1EE284A2007AB9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DDF20BF1EE2AA5600BC8F9B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF20C01EE2AA5600BC8F9B /* a.JPG */,
+				2DDF20C11EE2AA5600BC8F9B /* b.JPG */,
+				2DDF20C21EE2AA5600BC8F9B /* c.JPG */,
+				2DDF20C31EE2AA5600BC8F9B /* d.JPG */,
+				2DDF20C41EE2AA5600BC8F9B /* e.JPG */,
+				2DDF20C51EE2AA5600BC8F9B /* g.JPG */,
+				2DDF20C61EE2AA5600BC8F9B /* h.JPG */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		61473CA11EE284A2007AB9C8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,7 @@
 		61473CAC1EE284A2007AB9C8 /* SwimeeWorkShop */ = {
 			isa = PBXGroup;
 			children = (
+				2DDF20BF1EE2AA5600BC8F9B /* image */,
 				61473CAD1EE284A2007AB9C8 /* AppDelegate.swift */,
 				61473CAF1EE284A2007AB9C8 /* ViewController.swift */,
 				2D9BC4C91EE291CE009AEE18 /* TimeLineViewController.swift */,
@@ -184,12 +213,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDF20CB1EE2AA5600BC8F9B /* e.JPG in Resources */,
+				2DDF20CA1EE2AA5600BC8F9B /* d.JPG in Resources */,
 				61473CCA1EE28AB0007AB9C8 /* Login.storyboard in Resources */,
+				2DDF20CC1EE2AA5600BC8F9B /* g.JPG in Resources */,
+				2DDF20CD1EE2AA5600BC8F9B /* h.JPG in Resources */,
 				61473CB81EE284A2007AB9C8 /* LaunchScreen.storyboard in Resources */,
 				61473CB51EE284A2007AB9C8 /* Assets.xcassets in Resources */,
 				61473CCE1EE28AD2007AB9C8 /* TimeLine.storyboard in Resources */,
 				61473CC01EE284DF007AB9C8 /* Main.storyboard in Resources */,
 				61473CCC1EE28AC6007AB9C8 /* MakeImage.storyboard in Resources */,
+				2DDF20C91EE2AA5600BC8F9B /* c.JPG in Resources */,
+				2DDF20C81EE2AA5600BC8F9B /* b.JPG in Resources */,
+				2DDF20C71EE2AA5600BC8F9B /* a.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		36BFBC8A62CD1450D0F12C9E /* [CP] Copy Pods Resources */ = {

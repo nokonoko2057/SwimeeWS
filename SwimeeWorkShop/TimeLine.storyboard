@@ -57,6 +57,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="TimeLine" id="y7j-o7-pNj"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="myCollectionView" destination="OWU-TS-gjd" id="QlX-b8-4hh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qud-9J-OR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

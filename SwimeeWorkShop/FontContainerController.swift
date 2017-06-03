@@ -41,7 +41,7 @@ class FontContainerController: UICollectionViewController {
 //        UIFont.familyNames.forEach { (familyName) in
 //            let fontsInFamily = UIFont.fontNames(forFamilyName: familyName)
 //            fontsInFamily.forEach({ (fontName) in
-//                <#code#>
+//                code
 //            })
 //        }
 
