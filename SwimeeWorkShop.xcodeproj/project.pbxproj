@@ -19,6 +19,8 @@
 		61473CCA1EE28AB0007AB9C8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CC91EE28AB0007AB9C8 /* Login.storyboard */; };
 		61473CCC1EE28AC6007AB9C8 /* MakeImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */; };
 		61473CCE1EE28AD2007AB9C8 /* TimeLine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */; };
+		61473CD01EE2922B007AB9C8 /* FontContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CCF1EE2922B007AB9C8 /* FontContainerController.swift */; };
+		61473CD21EE29704007AB9C8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473CD11EE29704007AB9C8 /* CollectionViewCell.swift */; };
 		825EECC4E32C624CC52BFC8C /* Pods_SwimeeWorkShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		61473CC91EE28AB0007AB9C8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MakeImage.storyboard; sourceTree = "<group>"; };
 		61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TimeLine.storyboard; sourceTree = "<group>"; };
+		61473CCF1EE2922B007AB9C8 /* FontContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontContainerController.swift; sourceTree = "<group>"; };
+		61473CD11EE29704007AB9C8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		7DE03E0A164721E8283AE241 /* Pods-SwimeeWorkShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimeeWorkShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop.release.xcconfig"; sourceTree = "<group>"; };
 		8F61A0A95538EE055E5A995F /* Pods_SwimeeWorkShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwimeeWorkShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B93AD7FFB7369D940B2806 /* Pods-SwimeeWorkShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwimeeWorkShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwimeeWorkShop/Pods-SwimeeWorkShop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				61473CC91EE28AB0007AB9C8 /* Login.storyboard */,
 				61473CCB1EE28AC6007AB9C8 /* MakeImage.storyboard */,
 				61473CCD1EE28AD2007AB9C8 /* TimeLine.storyboard */,
+				61473CCF1EE2922B007AB9C8 /* FontContainerController.swift */,
+				61473CD11EE29704007AB9C8 /* CollectionViewCell.swift */,
 				61473CC11EE2852B007AB9C8 /* PicSelectContainerController.swift */,
 				61473CC71EE28534007AB9C8 /* GetColorContainerController.swift */,
 				61473CC21EE2852B007AB9C8 /* PictureViewController.swift */,
@@ -238,7 +244,9 @@
 			files = (
 				61473CC41EE2852B007AB9C8 /* PicSelectContainerController.swift in Sources */,
 				61473CC51EE2852B007AB9C8 /* PictureViewController.swift in Sources */,
+				61473CD21EE29704007AB9C8 /* CollectionViewCell.swift in Sources */,
 				61473CB01EE284A2007AB9C8 /* ViewController.swift in Sources */,
+				61473CD01EE2922B007AB9C8 /* FontContainerController.swift in Sources */,
 				61473CAE1EE284A2007AB9C8 /* AppDelegate.swift in Sources */,
 				61473CC81EE28534007AB9C8 /* GetColorContainerController.swift in Sources */,
 				61473CC61EE2852B007AB9C8 /* PostViewController.swift in Sources */,
